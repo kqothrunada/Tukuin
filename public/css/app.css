@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-title {
+    text-align: center;
+}
+.my-container {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.edit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.edit-container > * {
+    margin: 20px;
+}
+.transactiondetail-container {
+    padding: 30px 0;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    align-items: center;
+}
+.item-bigcontainer,
+.transactiondetail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.itemdetail-container {
+    width: 70%;
+}
+.item-bigcontainer img,
+.edit-container img,
+.transactiondetail-container img {
+    margin: 10px;
+    align-self: center;
+    max-width: 300px;
+    object-fit: cover;
+}
+.list-transaction a:nth-child(odd) li{
+    background-color: #e7223a;
+    color: #fff;
+}
+.cover {
+    object-fit: cover;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 300px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itemdetail-image{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
